@@ -1,0 +1,133 @@
+.header{
+    background-color:#e61f24;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height:70px;
+    color: rgb(229, 226, 226);
+    position: sticky;
+    top: 0;
+}
+
+/* logo*/
+.logo{
+    width: 30%;
+    cursor: pointer;
+}
+nav{
+    width: 55%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav ul li{
+    margin: 0 8px;
+}
+nav ul a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 1s ease;
+    text-decoration: none;
+    color: rgb(229, 226, 226);
+    transition: all 1s ease;
+}
+nav ul a:hover{
+    color: #777777;
+}
+.darkModeBtnWrapper{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.darkModeBtnWrapper .darkBtn{
+    outline: none;
+    border: none;
+    width: 36px;
+    height: 18px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.darkModeBtnWrapper .darkBtn::after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translate(0,0);
+    background-color: blue;
+    border-radius: 50%;
+}
+.darkModeBtnWrapper .darkBtn::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translate(0,0);
+    background-color: green;
+    border-radius: 50%;
+}
+
+.header-dark{
+    background-color: #e61f24;
+}
+.header-light{
+    background-color:rgb(229, 226, 226) ;
+    color: #000;
+}
+.header-light a{
+    color: #000;
+}
+input[type=checkbox] {
+  visibility: hidden;
+}
+input[type=checkbox]:checked + label {
+  transform: rotate(360deg);
+  background-color: #000;
+}
+input[type=checkbox]:checked + label:before {
+  transform: translateX(40px);
+  background-color: #FFF;
+}
+
+label {
+  display: flex;
+  width: 75px;
+  height: 40px;
+  border: 6px solid;
+  border-radius: 99em;
+  position: relative;
+  transition: transform 0.75s ease-in-out;
+  transform-origin: 50% 50%;
+  cursor: pointer;
+}
+label:before {
+  transition: transform 0.75s ease;
+  transition-delay: 0.5s;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+}
