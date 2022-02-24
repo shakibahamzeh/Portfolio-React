@@ -72,3 +72,15 @@
     color: black;
     border: 2px solid black;
 }
+
+@media (max-width:630px) {
+    .worksContainer h2{
+    font-size: 28px;
+}
+    .container{
+        width: 100%;
+    }
+    .container h3{
+    font-size: 20px;
+   }
+}

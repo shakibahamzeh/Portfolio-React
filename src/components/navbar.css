@@ -43,6 +43,13 @@ nav ul a{
 nav ul a:hover{
     color: #777777;
 }
+
+.menuIconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
 .darkModeBtnWrapper{
     width: 15%;
     display: flex;
@@ -109,7 +116,7 @@ input[type=checkbox]:checked + label:before {
 
 label {
   display: flex;
-  width: 75px;
+  width: 80px;
   height: 40px;
   border: 6px solid;
   border-radius: 99em;
@@ -124,10 +131,62 @@ label:before {
   content: "";
   display: block;
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   background-color: #000;
   border-radius: 50%;
+  top: 3px;
+  left: 3px;
+}
+
+
+@media (max-width:768px) {
+
+ nav ul{
+   flex-direction: column;
+   width: 220px;
+   height: calc(100vh - 70px);
+   background-color: #e61f24;
+   position: absolute;
+   top: 70px;
+   right: 0;
+   align-items: center;
+   justify-content: center;
+ }
+.header-light nav ul{
+    background-color:rgb(229, 226, 226) ;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+input[type=checkbox]:checked + label:before {
+  transform: translateX(30px);
+}
+
+label {
+  width: 60px;
+  height: 30px;
+  border: 3px solid;
+  border-radius: 99em;
+  transform-origin: 50% 50%;
+  cursor: pointer;
+}
+label:before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
   top: 4px;
   left: 4px;
 }
+.menuIconWrapper{
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+}
+.menuIconWrapper .menuIcon{
+  font-size: 35px;
+  cursor: pointer;
+}
+
+}
+ 
