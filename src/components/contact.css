@@ -33,12 +33,13 @@
     font-size: 24px;
     padding: 5px;
     display: inline-block;
+    transition: transform 0.8s ease-out;
 }
 .contactIcon{
     margin-right: 8px;
 }
-.contactContainer ul li:hover{
-    border: 1px solid rgb(229, 226, 226) ;
+.contactContainer ul li a:hover{
+    transform: translateY(10px);
 }
 .contact-dark{
 background-color: black;

@@ -22,7 +22,7 @@ const Contact=() =>{
             <li><a href="mailto:shakiba.hamzeh70@gmail.com" target="_blank">
               <MailIcon className="contactIcon"/>
               Mail</a></li>
-            <li><a href="09358836780" target="_blank"> 
+            <li><a href="tel:09358836780" target="_blank"> 
               <LocalPhoneIcon className="contactIcon"/>
               Call Me</a></li>
               <li><a href="https://www.linkedin.com/in/shakiba-hamze-69a69582/" target="_blank"> 
