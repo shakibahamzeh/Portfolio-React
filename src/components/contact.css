@@ -57,6 +57,9 @@ color: #000;
 
 
 @media (max-width:635px) {
+    .contactContainer{
+    height: auto;
+}
     .contactContainer ul{
         width: 100%;
         justify-content: center;

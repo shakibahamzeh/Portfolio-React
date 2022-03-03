@@ -21,9 +21,10 @@
 }
 .container{
     width: 35%;
-    background-color: #e61f24;
+    background-color: #d35054;
     margin: 20px;
     border-radius: 10px;
+    border: 1px solid #d35054;
 }
 .worksContainer a{
     text-decoration: none;

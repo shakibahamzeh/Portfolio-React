@@ -9,6 +9,7 @@
     color: rgb(229, 226, 226);
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 /* logo*/
