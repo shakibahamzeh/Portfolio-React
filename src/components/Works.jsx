@@ -33,7 +33,7 @@ const Works = ()=> {
          </ul>
        </div>
        <div className='showMoreLink'>
-         <a href='https://github.com/shakibahamzeh' target="_blank">Show All</a>
+         <a href='https://github.com/shakibahamzeh' target="_blank" rel="noreferrer">Show All</a>
        </div>
     </div>
   )

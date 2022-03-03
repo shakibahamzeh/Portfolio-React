@@ -16,16 +16,16 @@ const Contact=() =>{
         </div>
         <div>
           <ul>
-            <li><a href="https://github.com/shakibahamzeh" target="_blank">
+            <li><a href="https://github.com/shakibahamzeh" target="_blank" rel="noreferrer">
               <GitHubIcon className="contactIcon"/>
               Github</a></li>
-            <li><a href="mailto:shakiba.hamzeh70@gmail.com" target="_blank">
+            <li><a href="mailto:shakiba.hamzeh70@gmail.com" target="_blank" rel="noreferrer">
               <MailIcon className="contactIcon"/>
               Mail</a></li>
-            <li><a href="tel:09358836780" target="_blank"> 
+            <li><a href="tel:09358836780" target="_blank" rel="noreferrer"> 
               <LocalPhoneIcon className="contactIcon"/>
               Call Me</a></li>
-              <li><a href="https://www.linkedin.com/in/shakiba-hamze-69a69582/" target="_blank"> 
+              <li><a href="https://www.linkedin.com/in/shakiba-hamze-69a69582/" target="_blank" rel="noreferrer"> 
               <LinkedInIcon className="contactIcon"/>
               LinkedIn</a></li>
           </ul>
