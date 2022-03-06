@@ -8,9 +8,9 @@ const AboutUs = () =>{
   return (
     <div className={`aboutContainer ${darkMode ? "about-dark" : "about-light"}`}>
         <div>
-            <h1>Hey I am shakiba</h1>
+            <h1>Hey I am Shakiba</h1>
             <p>
-                I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using.
+               I am a creative and self-starting Front-End Developer with more than 1-year experience building and maintaining responsive websites in fast-paced, collaborative environments. Proficient in HTML / CSS / JavaScript / JQuery / React ; plus modern libraries and frameworks. I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. The list of projects contained in my portfolio will give you a good idea of the level of my knowledge. 
             </p>
         </div>
     </div>
